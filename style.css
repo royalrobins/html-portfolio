@@ -1,1 +1,15 @@
-text
+html{
+    background-color: black;
+}
+p{
+    color:white;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: white;
+}
+h3{
+    color:white
+}
