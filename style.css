@@ -13,3 +13,6 @@ h1{
 h3{
     color:white
 }
+h3[Value="1"]{
+    text-align: center;
+}
