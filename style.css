@@ -6,16 +6,85 @@ p{
     text-align: center;
 }
 h1{
+    font-family: Helvetica, sans-serif;
     text-align: center;
     text-transform: capitalize;
-    background-color: white;
 }
 h3{
     color:white
 }
-.center-title{
-    text-align: center;
+.website-headline{
+font-family: "Poppins", sans-serif
+font-weight: 100;
+color: white;
+text-align: calc();
 }
-.center-image{
-    text-align: center;
+.footer1{
+    text-align: right;
+}
+#grad1{
+    height: 700px;
+    background-color: darkgrey;
+    background-image: linear-gradient(to top, rgb(19, 11, 82), rgb(127, 148, 255));
+}
+.cta{
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    transition: all 0.3s ease 0s;
+    color:aqua
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8); 
 }
