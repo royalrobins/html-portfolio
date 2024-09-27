@@ -55,8 +55,8 @@ header{
 .logo{
     cursor: pointer;
     margin-right: auto;
-    height:fit-content;
-    width:fit-content;
+    height: auto;
+    width: auto;
 }
 
 .navlinks{
