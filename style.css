@@ -72,12 +72,12 @@ header{
 
 .navlinks li a:hover {
     transition: all 0.3s ease 0s;
-    color:aqua
+    color:crimson
 }
 
 button{
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(243, 61, 61);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -86,5 +86,5 @@ button{
 }
 
 button:hover{
-    background-color: rgba(0, 136, 169, 0.8); 
+    background-color: rgba(243, 61, 61, 0.8); 
 }
