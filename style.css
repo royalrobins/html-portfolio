@@ -1,5 +1,5 @@
 html{
-    background-color: black;
+    background-image: url(assets/images/Space.png);
 }
 p{
     color:white;
@@ -19,22 +19,15 @@ font-weight: 100;
 color: white;
 text-align: calc();
 }
-.footer1{
-    text-align: right;
-}
-#grad1{
-    height: 700px;
-    background-color: darkgrey;
-    background-image: linear-gradient(to top, rgb(19, 11, 82), rgb(127, 148, 255));
-}
-.cta{
-
+#contact {
+    
 }
 * {
     box-sizing: border-box;
     margin: 0;
+    height: 20px;
     padding: 0;
-    background-color: #520000;
+    background-color: #1e1d2d;
 }
 
 li, a, button{
@@ -72,12 +65,12 @@ header{
 
 .navlinks li a:hover {
     transition: all 0.3s ease 0s;
-    color:darkslategrey
+    color:rgb(45, 48, 135)
 }
 
 button{
-    padding: 9px 25px;
-    background-color: rgb(36, 70, 145);
+    padding: 0px 25px;
+    background-color: rgb(45, 48, 135);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -86,5 +79,5 @@ button{
 }
 
 button:hover{
-    background-color: rgba(30, 70, 145, 0.8); 
+    background-color: rgba(45, 48, 135, 0.8); 
 }
