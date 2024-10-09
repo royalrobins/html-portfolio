@@ -34,7 +34,7 @@ text-align: calc();
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: #520000;
 }
 
 li, a, button{
@@ -72,12 +72,12 @@ header{
 
 .navlinks li a:hover {
     transition: all 0.3s ease 0s;
-    color:crimson
+    color:darkslategrey
 }
 
 button{
     padding: 9px 25px;
-    background-color: rgb(243, 61, 61);
+    background-color: rgb(36, 70, 145);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -86,5 +86,5 @@ button{
 }
 
 button:hover{
-    background-color: rgba(243, 61, 61, 0.8); 
+    background-color: rgba(30, 70, 145, 0.8); 
 }
